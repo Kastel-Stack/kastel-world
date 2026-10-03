@@ -2,7 +2,8 @@
 
 **Status:** canonical prototype, v0.1  
 **Region inspiration:** inland from South Africa's Garden Route, near the Outeniqua / Klein Karoo transition  
-**Exact location:** fictional
+**Exact location:** fictional  
+**Canonical map anchor:** `-33.8115, 22.4650` — a notional foothill site north of Herold, chosen to place the node within easy conceptual reach of the Du Toits–Langkloof flying ridge. See [location anchor](../../spatial/nodes/SA01_LOCATION_ANCHOR.md).
 
 ## Narrative function
 
