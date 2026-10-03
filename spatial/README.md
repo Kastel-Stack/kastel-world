@@ -51,6 +51,34 @@ Google Earth and Street View can be useful for private visual familiarisation, b
 
 Do not build publishable geometry by tracing or extracting Google imagery.
 
+## First canonical site package
+
+The first worked spatial package is `SITE-SA-01`:
+
+- [House K1 specification](./nodes/SA01_HOUSE_K1_SPEC.md)
+- [Workshop / Lab W1 specification](./nodes/SA01_WORKSHOP_LAB_SPEC.md)
+- [Site layout](./nodes/SA01_SITE_LAYOUT.md)
+
+These documents define the initial physical grammar for the South African Garden Node and are the basis for the first 3D blockout.
+
+## Interior production
+
+See:
+
+- [Canonical Model Standard](./CANONICAL_MODEL_STANDARD.md)
+- [Interior-to-Comic Workflow](./INTERIOR_TO_COMIC_WORKFLOW.md)
+
+The intended production model is:
+
+```text
+canonical 3D room
+→ persistent furniture / colours / props
+→ saved camera
+→ neutral render
+→ comic stylisation
+→ final panel
+```
+
 ## Directory intent
 
 Future large binary assets should be stored using an appropriate large-file workflow (for example Git LFS or external asset storage). GitHub should retain:
@@ -71,7 +99,8 @@ Recommended pattern:
 
 - `LOC-SA-01` — regional location
 - `SITE-SA-01` — node site
-- `BLDG-SA-01-HOUSE`
+- `BLDG-SA-01-HOUSE-K1`
+- `BLDG-SA-01-LAB-W1`
 - `ROOM-SA-01-CONTROL`
 - `CAM-SA-01-CONTROL-03`
 - `STATE-SA-01-ISSUE-004`
