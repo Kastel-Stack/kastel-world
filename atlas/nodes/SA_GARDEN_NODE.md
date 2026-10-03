@@ -12,17 +12,39 @@ It is intended to demonstrate how a Red Rail community can remain connected to o
 
 The node is not a fortress or survivalist compound. It is a comfortable, productive, technologically sophisticated rural base.
 
+## Canonical site package
+
+The node now has three first-pass spatial specifications:
+
+- [House K1](../../spatial/nodes/SA01_HOUSE_K1_SPEC.md) — compact two-bedroom modular autonomous house with study/control room.
+- [Workshop / Lab W1](../../spatial/nodes/SA01_WORKSHOP_LAB_SPEC.md) — detached fabrication, electronics, repair and compute building.
+- [Site layout](../../spatial/nodes/SA01_SITE_LAYOUT.md) — relationship between house, workshop, productive land, greenhouse, water and access.
+
+These are comic-production canon, not construction documents.
+
 ## Core components
 
-### Main house
-- modest modern modular or masonry house;
-- high insulation;
+### Main house — K1
+- compact modern modular house;
+- approximately 60–75 m² internal target;
+- two bedrooms / flex guest capacity;
 - shaded outdoor living;
-- locally appropriate materials;
 - control room / study;
-- private computing area;
-- flexible guest rooms;
-- strong fire-conscious detailing.
+- private computing access;
+- strong indoor/outdoor relationship;
+- fire-conscious detailing;
+- recognisable recurring domestic props and decoration.
+
+### Workshop / Lab — W1
+- general repair;
+- woodworking;
+- basic metalwork;
+- electronics bench;
+- 3D printing;
+- component storage;
+- CAD terminal;
+- small clean compute/storage room;
+- covered external work apron.
 
 ### Technical core
 - local server/storage stack;
@@ -32,15 +54,6 @@ The node is not a fortress or survivalist compound. It is a comfortable, product
 - Home Assistant-style local control;
 - cameras and environmental sensors;
 - battery-backed communications.
-
-### Workshop
-- woodworking;
-- basic metalwork;
-- electronics bench;
-- 3D printing;
-- repair area;
-- component storage;
-- computer/CAD terminal.
 
 ### Productive land
 - orchard;
@@ -121,15 +134,16 @@ Recurring story engines include:
 1. regional terrain block;
 2. access road;
 3. site plan;
-4. house exterior;
-5. control room;
-6. kitchen/living space;
-7. workshop;
-8. greenhouse;
-9. water/energy area;
-10. orchard/garden;
-11. saved cameras;
-12. day/night/fire-smoke/weather scene states.
+4. House K1 exterior;
+5. House K1 control room;
+6. House K1 kitchen/living space;
+7. Workshop/Lab W1 exterior;
+8. Workshop/Lab W1 electronics bench;
+9. greenhouse;
+10. water/energy area;
+11. orchard/garden;
+12. saved cameras;
+13. day/night/fire-smoke/weather scene states.
 
 ## Safety note
 
